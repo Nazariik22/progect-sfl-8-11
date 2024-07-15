@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+main{
+    color: azure;
+    background: #240b29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin:20% auto;
+    width: 600px;
+    height: 350px;
+    box-shadow: 5px 5px 30px rgb(62, 52, 156);
+}
+.blok2{
+    width: 3px;
+    height: 100%;
+    background: #ffffff;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+main{
+    width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+body{
+    background: linear-gradient(90deg,#045191,#d5ff19);
+}
+h2{
+    text-align: center;
+}
+i{
+    text-align: right;
+}
+section{
+    display: flex;
+}
+.golovna img{
+    width: 300px;
+}
+.golovna p{
+    width: 400px;
+    margin-left: 100px;
+    line-height: 2;
+    text-align: justify;
+}
+.justify{
+    text-align: justify;
+}
+.img img{   
+    width: 33%;
+}

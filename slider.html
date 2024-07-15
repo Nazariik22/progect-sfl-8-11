@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер</title>
+    <script src="./js/15.js" defer></script>
+    <style>
+        #slider {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            background: #000;
+            
+            position: relative;
+        }
+
+        .container {
+            width: 1500px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 1s linear;
+        }
+
+        .container img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+
+        }
+        .wrapper{
+            width: 400px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--<button id="left">+</button>-->
+        <section id="slider">
+            <div class="container"> </div>
+        </section>
+        <!--<button id="right">+</button>-->
+
+    </div>
+
+    <!--<section id="button">
+
+    </section>-->
+</body>
+
+</html>

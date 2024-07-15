@@ -1,0 +1,66 @@
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+}
+ul li{
+    width: 250px;
+    
+}
+ul a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #192e40;
+    padding-bottom: 5px;
+    transition: all  .2s linear;
+}
+ul a:hover{
+    border-bottom: 2px solid #192e40;;
+}
+
+
+/* Креслення */
+
+main{
+    display: flex;
+    gap: 1px;
+    margin: auto;
+    
+}
+section{
+    width: 450px;
+    height: 450px;
+    border: 1px solid #000;
+    position: relative;
+}
+.blok1{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+}
+.blok2{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.blok3{
+    height: 302px;
+    width: 50px;
+    border-left: 1px dashed #000;
+    border-right: 1px dashed #000;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,14 @@
+
+div{
+    width: 250px;
+    height: 250px;
+    background: #ca1313;
+    margin-top: 10px;
+}
+.blok1{
+    border-radius: 0 10px 10px 0;
+}
+.blok4{
+    border-radius: 50%;
+    background: #0ab14a;
+}
